@@ -1,0 +1,18 @@
+@media screen and (max-width:425px) {
+    .nav-container{
+        flex-direction: column;
+        
+    }
+    .nav-title{
+        
+        margin-bottom: 10px;
+    }
+    .nav-content{
+        flex-direction: column;
+        
+        
+    }
+    .nav-content .icons{
+        padding: 20px 8px;
+    }
+}

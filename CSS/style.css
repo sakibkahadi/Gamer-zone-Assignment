@@ -1,13 +1,71 @@
+:root{
+    --linear: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%)
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Work+Sans&display=swap');
+body{
+    font-family: 'Work Sans', sans-serif;
+}
 
-
-
+/* nav start */
+.nav{
+    background-color: #fff;
+}
 .nav-container{
-    display: flex;
+    display: flex;  
+    max-width: 1400px;
+    margin: 0 auto;
+    min-height: 50px;
+    align-items: center;
 }
 .nav-title{
-    width: 50%;
+    width: 50%; 
+    display: flex;
 }
-
+.nav-title img{
+    width: 60px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+.nav-title h3{
+    font-size: 45px;
+    font-weight: 700;
+}
+.nav-title span{
+    background: var(--linear );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
 .nav-content{
-    width: 50%;
+    width: 50%; 
+    display: flex;
+    justify-content: space-around;
+    gap: 70px;
+    align-items: center;
+    color: #3C354F;
+    font-size: 15px;
+    font-weight: 500;
 }
+.nav-content li{
+    list-style: none;
+
+}
+.nav-content a{
+    text-decoration: none;
+    color: #3C354F;
+}
+.nav-content .icons{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10); 
+    color: #0B0223;
+    display: flex;
+    align-items: center;
+    padding: 20px 12px;
+}
+.nav-content span{
+    margin-left: 10px; 
+}
+.nav-content .fa-brands{
+    font-size: 20px;
+}
+/* nav end */
