@@ -1,0 +1,13 @@
+
+
+
+.nav-container{
+    display: flex;
+}
+.nav-title{
+    width: 50%;
+}
+
+.nav-content{
+    width: 50%;
+}
