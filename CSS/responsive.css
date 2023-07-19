@@ -25,6 +25,7 @@
     }
     .banner-content h3{
         margin-top: 130px;
+        font-size: 30px;
     }
     .banner-content .btn{
         justify-content: center;
@@ -35,5 +36,28 @@
     }
     .banner-images{
         width: 100%;
+    }
+
+
+    /*online games*/
+    .Online-games h3{
+        font-size: 30px;
+    }
+    .Online-games P{
+        font-size: 13px;
+    }
+
+
+    .Online-games .card-container{
+        grid-template-columns: 1fr;
+        max-width: 75%;
+        margin: 0 auto;
+    }
+    .Online-games .card-container p{
+        font-size: 13px;
+        text-align: center;
+    }
+    .Online-games .card-container .card .line-break{
+        margin-right: 20px;
     }
 }
