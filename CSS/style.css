@@ -5,23 +5,20 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 body{
     font-family: 'Work Sans', sans-serif;
 }
 
 /* nav start */
-.nav{
-    padding: 45px;
-    background: #FFF;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-}
+
 .nav-container{
-    
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     display: flex;  
     max-width: 1400px;
     margin: 0 auto;
-    min-height: 50px;
+    min-height: 130px;
     align-items: center;
 }
 .nav-title{
@@ -114,7 +111,7 @@ body{
     
 }
 .banner-content h1{
-    
+    font-family: 'Times New Roman', Times, serif;
     font-size: 95px;
     font-weight: 800;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -218,6 +215,7 @@ body{
 .Online-games img{
     width: 100%;
 }
+
 /* Online game sections end*/
 
 /* play instantly section start*/
@@ -396,7 +394,7 @@ body{
     
 }
 .footer-container .copyrights{
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 500px;
     display: flex;
     align-items: center;
