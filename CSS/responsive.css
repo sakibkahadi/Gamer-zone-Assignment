@@ -1,18 +1,39 @@
-@media screen and (max-width:425px) {
+@media screen and (max-width:576px) {
     .nav-container{
         flex-direction: column;
         
     }
     .nav-title{
         
-        margin-bottom: 10px;
+        margin-bottom: 40px;
     }
     .nav-content{
         flex-direction: column;
-        
+        margin-bottom: 30px;
         
     }
     .nav-content .icons{
         padding: 20px 8px;
+    }
+
+    /* banner */
+    .banner-container{
+        flex-direction: column-reverse;
+        text-align: center;
+        
+        
+    }
+    .banner-content h3{
+        margin-top: 130px;
+    }
+    .banner-content .btn{
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .banner-images{
+        width: 100%;
     }
 }
