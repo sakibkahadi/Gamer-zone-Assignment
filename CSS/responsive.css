@@ -1,15 +1,17 @@
+/*mobile responsive*/
 @media screen and (max-width:576px) {
     .nav-container{
         flex-direction: column;
         
     }
     .nav-title{
-        
-        margin-bottom: 40px;
+        justify-content: center;
+        margin-bottom: 20px;
     }
     .nav-content{
         flex-direction: column;
         margin-bottom: 30px;
+        gap: 30px;
         
     }
     .nav-content .icons{
@@ -85,7 +87,100 @@
         padding: 0px;
         
     }
-    
+ 
 }
 
+/*Tablet responsive*/
+@media screen and (min-width:576px) and (max-width:920px) {
+    
 
+    .nav-container{
+        flex-direction: column;
+        
+    }
+    .nav-title{
+        justify-content: center;
+    }
+    
+    .nav-content{
+        margin-top: 20px;
+        flex-direction: column;
+        margin-bottom: 30px;
+        gap: 30px;
+        
+        
+    }
+    .nav-content .icons{
+        padding: 20px 8px;
+    }
+
+    /* banner */
+    .banner-container{
+        flex-direction: column-reverse;
+        text-align: center;
+        
+        
+    }
+    .banner-content h3{
+        margin-top: 130px;
+        font-size: 30px;
+    }
+    .banner-content .btn{
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .banner-images{
+        width: 100%;
+    }
+
+
+    /*online games*/
+    .Online-games h3{
+        font-size: 30px;
+    }
+    .Online-games P{
+        font-size: 13px;
+    }
+
+
+    .Online-games .card-container{
+        grid-template-columns: repeat(2, 2fr);
+        max-width: 75%;
+        margin: 0 auto;
+    }
+    .Online-games .card-container p{
+        font-size: 13px;
+        text-align: center;
+    }
+    .Online-games .card-container .card .line-break{
+        margin-right: 20px;
+    }
+    /* play instantly section start*/
+    .play-instantly{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .play-content{
+        width: 100%;
+        
+    }
+    .play-images img{
+        width: 70%;
+        /* margin-left: 100px; */
+         
+    }
+    .small-image{
+        position: relative;
+        right: 60px;
+        width: 50%;
+        bottom: 150px;
+    }
+    .icon-btn{
+
+        padding: 0px;
+        
+    }
+}
