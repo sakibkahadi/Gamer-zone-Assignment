@@ -60,7 +60,7 @@
     .Online-games .card-container .card .line-break{
         margin-right: 20px;
     }
-
+    /* play instantly section start*/
     .play-instantly{
         flex-direction: column;
         gap: 40px;
@@ -71,14 +71,13 @@
     }
     .play-images img{
         width: 70%;
-        margin-left: 100px;
-        
-        
+        /* margin-left: 100px; */
+         
     }
     .small-image{
         position: relative;
         right: 60px;
-        width: 300px;
+        width: 50%;
         bottom: 150px;
     }
     .icon-btn{
@@ -89,4 +88,4 @@
     
 }
 
-/*btn icons start*/
+
